@@ -11,7 +11,7 @@ which is defined in a different file.
 
 
 */
-import { printName, printAge, printIronhackerDetails } from './ironhacker.js';
+import { printName, printAge}, printIronhackerDetails from './ironhacker.js';
 
 console.log('printing the details of our ironhacker...');
 printIronhackerDetails();

@@ -1,4 +1,4 @@
-export const ironhacker = {
+const ironhacker = {
   name: 'Bob',
   age: 32,
 };
@@ -11,7 +11,7 @@ export const printAge = () => {
   console.log(ironhacker.age);
 };
 
-const printIronhackerDetails = () => {
+export const printIronhackerDetails = () => {
   printName();
   printAge();
 };
@@ -19,4 +19,6 @@ const printIronhackerDetails = () => {
 // export {printName, printAge, printIronhackerDetails};
 
 export default printIronhackerDetails;
+
+
 
